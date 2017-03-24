@@ -1,12 +1,12 @@
 <!--index.wxml-->
 <swiper class="container">
     <swiper-item>
-        <view class="item-1"></view>
+        <image class="item-1" src="/images/lfs-0.jpg" />
     </swiper-item>
     <swiper-item>
-        <view class="item-2"></view>
+        <image class="item-2" src="/images/lfs-1.jpg" />
     </swiper-item>
     <swiper-item>
-        <view class="item-3"></view>
+        <image class="item-3" src="/images/lfs-2.jpg" />
     </swiper-item>
 </swiper>
