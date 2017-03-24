@@ -1,12 +1,8 @@
 <!--index.wxml-->
 <swiper class="container">
-    <swiper-item>
-        <image class="item-1" src="/images/lfs-0.jpg" />
-    </swiper-item>
-    <swiper-item>
-        <image class="item-2" src="/images/lfs-1.jpg" />
-    </swiper-item>
-    <swiper-item>
-        <image class="item-3" src="/images/lfs-2.jpg" />
-    </swiper-item>
+    <block wx:for="{{pages_array}}" wx:for-item="image_src">
+        <swiper-item>
+            <image class="item" src="{{image_src}}" />
+        </swiper-item>
+    </block>
 </swiper>
