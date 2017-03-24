@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<swiper class="container">
+<swiper class="container" bindchange="on_swiper_change">
     <block wx:for="{{pages_array}}" wx:for-item="image_src">
         <swiper-item>
             <image class="item" src="{{image_src}}" />
