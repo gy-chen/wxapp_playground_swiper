@@ -1,8 +1,12 @@
 <!--index.wxml-->
-<swiper class="container" bindchange="on_swiper_change">
+<view class="we-container {{directionClass}}">
+  <view class="we-wrapper"
+    bindtouchstart="touchstart"
+    bindtouchmove="touchmove"
+    bindtouchend="touchend"
+    onSlideChangeStart="on_swiper_change">
     <block wx:for="{{pages_array}}" wx:for-item="image_src">
-        <swiper-item>
-            <image class="item" src="{{image_src}}" />
-        </swiper-item>
+        <view class="we-slide" animation="{{animationData}}"><image class="item" src="{{image_src}}" /></view>
     </block>
-</swiper>
+  </view>
+</view>

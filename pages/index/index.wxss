@@ -1,4 +1,6 @@
 /**index.wxss**/
+@import "/we-swiper/dist/weSwiper.wxss";
+
 .container {
     height: auto; /* 覆寫小程序Swiper預設高度 */
     position: absolute;

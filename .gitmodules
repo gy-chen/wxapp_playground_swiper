@@ -1,0 +1,3 @@
+[submodule "we-swiper"]
+	path = we-swiper
+	url = https://github.com/gy-chen/we-swiper
